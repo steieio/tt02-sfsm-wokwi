@@ -20,7 +20,7 @@ documentation:
   description:  "Implements a state machine stored in an external SPI flash"      # Short description of what your project does
   how_it_works: "Inputs and current state are shifted into a SPI flash to look up the next state and outputs"      # Longer description of how the project works
   how_to_test:  "Connect a SPI flash device loaded with state machine values"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-  external_hw:  "none"      # Describe any external hardware needed
+  external_hw:  "SPI Flash with 0x03 read command and 24bit address"      # Describe any external hardware needed
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     "https://github.com/steieio/tt02-sfsm-wokwi/blob/main/README.md"      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required)
